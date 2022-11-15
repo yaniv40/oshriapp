@@ -1,0 +1,86 @@
+#divs{
+width: 1700px;
+height: 600px;
+display: flex;
+
+
+
+}
+
+#divson{
+border: 6px black solid;
+width: 1000px;
+height: 600px;
+position: relative;
+left: 450px;
+top: 100px;
+background-image: url("rr.jpg");
+
+}
+
+#Welcome{
+position: relative;
+left: 350px;
+font-size: 50px;
+color: black;
+}
+
+#level{
+position: relative;
+left: 400px;
+font-size: 35px;
+color: black;
+top: 50px;
+}
+
+#Easy{
+position: relative;
+left: 120px;
+top: 200px;
+width: 120px;
+height: 100px;
+color: black;
+background-color: white;
+font-size: 30px;
+border-radius: 10px;
+}
+#Medium{
+position: relative;
+left: 350px;
+top: 200px;
+width: 120px;
+height: 100px;
+background-color: white;
+font-size: 30px;
+border-radius: 10px;
+}
+
+#Hard{
+position: relative;
+left: 600px;
+top: 200px;
+width: 120px;
+height: 100px;
+background-color: white;
+font-size: 30px;
+border-radius: 10px;
+}
+
+body{
+  background-image: url("p.jpg");
+
+}
+#Medium:hover{
+    background-color: gray;
+}
+#Easy:hover{
+    background-color: gray;
+}
+#Hard:hover{
+    background-color: gray;
+}
+
+#user{
+    text-align: center;
+   color: red;
+}

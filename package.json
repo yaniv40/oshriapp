@@ -1,0 +1,20 @@
+{
+  "name": "hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "easy.js",
+  "homepage": "yaniv40.github.io/oshriapp",
+  "scripts": {
+    "deploy": "npm run build && gh-pages -d build",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "gh-pages": "^4.0.0",
+    "mongoose": "^6.7.2"
+  }
+}
